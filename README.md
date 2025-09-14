@@ -1,4 +1,4 @@
-# Carista News Search
+<img width="1898" height="898" alt="image" src="https://github.com/user-attachments/assets/77a97e66-5b50-4562-b133-e5b43511abb1" /># Carista News Search
 
 A Laravel application for searching news articles using the NewsAPI service.
 
@@ -10,6 +10,12 @@ A Laravel application for searching news articles using the NewsAPI service.
 - Mobile-responsive design
 - Caching to reduce API calls
 - Database storage for search history
+
+<img width="1896" height="828" alt="image" src="https://github.com/user-attachments/assets/425d2ff8-77d7-4bde-99cf-9f6ecbfb02af" />
+<img width="1899" height="899" alt="image" src="https://github.com/user-attachments/assets/8e35325e-de8b-4e25-b4f2-ec2cd61ec857" />
+<img width="1898" height="898" alt="image" src="https://github.com/user-attachments/assets/813db4e6-a341-4426-a32b-31e994076806" />
+
+
 
 ## Setup
 
@@ -23,6 +29,7 @@ A Laravel application for searching news articles using the NewsAPI service.
    ```
 6. Run `php artisan migrate`
 7. Start the server with `php artisan serve`
+8. Go to http://127.0.0.1:8000/
 
 ## Getting a NewsAPI Key
 
