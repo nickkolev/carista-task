@@ -15,7 +15,15 @@ return new class extends Migration
             $table->id();
             $table->string('keyword');
             $table->json('response');
+            $table->integer('page')->default(1);
+            $table->integer('page_size')->default(20);
+            $table->date('from_date')->nullable();
+            $table->date('to_date')->nullable();
             $table->timestamps();
+            
+            // Add indexes for better performance
+            $table->index(['keyword', 'page', 'page_size']);
+            $table->index(['keyword', 'from_date', 'to_date']);
         });
     }
 
