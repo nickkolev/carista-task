@@ -1,4 +1,4 @@
-<img width="1898" height="898" alt="image" src="https://github.com/user-attachments/assets/77a97e66-5b50-4562-b133-e5b43511abb1" /># Carista News Search
+# Carista News Search
 
 A Laravel application for searching news articles using the NewsAPI service.
 
